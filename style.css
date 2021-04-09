@@ -59,7 +59,6 @@ main {
 }
 .ocultar {
   overflow: hidden;
-  background-color: var(--color-titulos);
 }
 .ocultar .text {
   display: inline-block;
@@ -154,6 +153,8 @@ main {
 
 .li-oscuros {
   color: var(--color-titulos);
+  font-size: 18px;
+  font-weight: 700;
 }
 .li-blancos {
   color: var(--color-fondo);
