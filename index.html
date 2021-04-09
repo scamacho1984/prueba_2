@@ -10,24 +10,106 @@
 </head>
 <body>
   <!-- Encabezado del sitio y seccion para el menu tanto del movil como para escritorio -->
-  <header>
-    <div></div>
+  <header class="encabezado">
+    <div class="contenedor">
+      <button class="button-burger">
+        <img class="button-burger-icono" src="./images/icon-hamburger.svg" >
+        <img class="button-burger-icono ocultar" src="./images/icon-close.svg">
+      </button>
+      <a class="logo" href="/">
+        <img src="./images/logo.svg">
+      </a>
+      <ul class="menu1">
+        <li class="li-blancos">home</li>
+        <li class="li-blancos">shop</li>
+        <li class="li-blancos">about</li>
+        <li class="li-blancos">contact</li>
+      </ul>
+      <div class="menu2 ocultar">
+        <ul class="menu2-ul">
+          <li class="li-oscuros">home</li>
+          <li class="li-oscuros">shop</li>
+          <li class="li-oscuros">about</li>
+          <li class="li-oscuros">contact</li>
+        </ul>
+      </div>
+    </div>
   </header>
   <!-- Contenido del sitio -->
   <main>
     <!-- Seccion del slider o hero del landing -->
-    <section></section>
-    <!-- Seccion del about -->
-    <section>
-      <!-- Imagen oscura de la silla -->
-      <img>
-      <!-- Cuadro central para el about -->
-      <div>
-        <h1>About our furniture</h1>
-        <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.</p>
+    <section class="hero">
+      <div class="siema">
+        <div class="siema-elemento">
+          <div class="siema-elemento-imagen image-hero1"></div>
+          <div class="siema-contenido">
+            <div class="siema-botones">
+              <div class="siema-botones-anterior">
+                <img src="./images/icon-angle-left.svg">
+              </div>
+              <div class="siema-botones-siguiente">
+                <img src="./images/icon-angle-right.svg">
+              </div>
+            </div>
+            <h2 class="siema-titulo">Discover innovative ways to decorate</h2>
+            <p class="siema-texto">We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
+            <a class="siema-comprar" href="">
+              <span class="siema-comprar-texto">Shop now</span>
+              <img src="./images/icon-arrow.svg">
+            </a>
+          </div>
+        </div>
+        <div class="siema-elemento">
+          <div class="siema-elemento-imagen image-hero2"></div>
+          <div class="siema-contenido">
+            <div class="siema-botones">
+              <div class="siema-botones-anterior">
+                <img class="icon-angle" src="./images/icon-angle-left.svg">
+              </div>
+              <div class="siema-botones-siguiente">
+                <img class="icon-angle" src="./images/icon-angle-right.svg">
+              </div>
+            </div>
+            <h2 class="siema-titulo">We are available all across the globe</h2>
+            <p class="siema-texto">With stores all over the world, it's easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? Don't hesitate to contact us today.</p>
+            <a class="siema-comprar" href="">
+              <span class="siema-comprar-texto">Shop now</span>
+              <img class="shop-now__icon" src="./images/icon-arrow.svg">
+            </a>
+          </div>
+        </div>
+        <div class="siema-elemento">
+          <div class="siema-elemento-imagen image-hero3"></div>
+          <div class="siema-contenido">
+            <div class="siema-botones">
+              <div class="siema-botones-anterior">
+                <img class="icon-angle" src="./images/icon-angle-left.svg">
+              </div>
+              <div class="siema-botones-siguiente">
+                <img class="icon-angle" src="./images/icon-angle-right.svg">
+              </div>
+            </div>
+            <h2 class="siema-titulo">Manufactured with the best materials</h2>
+            <p class="siema-texto">Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office.</p>
+            <a class="siema-comprar" href="">
+              <span class="siema-comprar-texto">Shop now</span>
+              <img class="shop-now__icon" src="./images/icon-arrow.svg">
+            </a>
+          </div>
+        </div>
       </div>
-      <!-- Imagen clara de la silla -->
-      <img>
+    </section>
+    <!-- Seccion del about -->
+    <section class="about">
+      <div class="about-izq"></div>
+      <div class="about-medio">
+        <h1 class="about-titulo">About our furniture</h1>
+        <p class="about-texto">Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+      <div class="about-der"></div>
     </section>
   </main>
 </body>
