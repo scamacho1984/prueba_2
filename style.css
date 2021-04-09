@@ -6,13 +6,18 @@
   --color-enfasis-botones: #444444;
   --color-titulos: #000000;
 }
+html {
+  box-sizing: border-box;
+}
 *, *::before, *::after {
   box-sizing: inherit;
+  font-size: 62.5%;
 }
 html, body {
   height: 100%;
 }
 body {
+  scrollbar-width: none;
   font-family: 'Heebo', sans-serif;
   margin: 0;
   background-color: var(--color-fondo);
@@ -43,12 +48,12 @@ main {
 /* ------------------------------------------------------- */
 
 .siema-titulo {
-  font-size: 28px;
+  font-size: 2.8rem;
   color: var(--color-titulos);
 }
 @media (min-width: 1366px) {
   .siema-titulo {
-    font-size: 40px;
+    font-size: 4rem;
   }
 }
 .siema-comprar-texto {
@@ -74,11 +79,11 @@ main {
   left: 0;
   top: 0;
   width: 100%;
-  padding: 70px 35px 0;
+  padding: 4.8rem 2.4rem 0;
 }
 @media (min-width: 768px) {
   .encabezado {
-    padding: 100px 100px 0;
+    padding: 6.4rem 6.4rem 0;
   }
 }
 .encabezado > .contenedor {
@@ -88,7 +93,7 @@ main {
 }
 @media (min-width: 768px) {
   .encabezado > .contenedor {
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 6.2rem 1fr;
   }
 }
 .logo {
@@ -140,8 +145,8 @@ main {
   content: '';
   bottom: 0;
   left: 50%;
-  height: 3px;
-  width: 20px;
+  height: .2rem;
+  width: 1.6rem;
   position: absolute;
   background-color: transparent;
   transform: translateX(-50%) translateY(.9rem);
@@ -191,8 +196,8 @@ main {
   height: 11rem;
   display: flex;
   align-items: center;
-  padding-right: 2.4rem;
-  padding-left: 10.8rem;
+  padding-right: 2.5rem;
+  padding-left: 11rem;
   justify-content: space-between;
   background-color: var(--color-fondo);
 }
